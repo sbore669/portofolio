@@ -169,11 +169,11 @@ img {
 .title:after {
   content: "";
   position: absolute;
-  width: 90px;
+  width: 180px;
   height: 5px;
   border-radius: 3px;
   background-color: var(--main-color);
-  bottom: 0;
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -236,6 +236,9 @@ nav .container {
   justify-content: space-between;
   height: 6rem;
   align-items: center;
+  background: #f9fafb;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -1417,7 +1420,7 @@ a {
 
   .title:after {
     height: 3.5px;
-    width: 70px;
+    width: 180px;
   }
 
   .title-sm {
